@@ -2,36 +2,36 @@
 
   ### general
   
-  #### theme: minimal
-  #### tab bar location: bottom
-  #### status bar location: top
+    #### theme: minimal
+    #### tab bar location: bottom
+    #### status bar location: top
   
   ### windows
   
-  #### show window number in bar: [check]
-  #### hide scrollbars: [check]
+    #### show window number in bar: [check]
+    #### hide scrollbars: [check]
   
   ### tabs
   
-  #### show tab numbers: [check]
-  #### strech tabs to fill bar: [check]
+    #### show tab numbers: [check]
+    #### strech tabs to fill bar: [check]
 
 ## profiles/colors
 
   ### basic colors
   
-  #### foreground: ececec
-  #### background: 0a0a0a
-  #### bold: feffff
-  #### links: e37a8f
-  #### selection: 793845
-  #### selected text: feffff
-  #### badge: ff2600
+    #### foreground: ececec
+    #### background: 0a0a0a
+    #### bold: feffff
+    #### links: e37a8f
+    #### selection: 793845
+    #### selected text: feffff
+    #### badge: ff2600
   
   ### cursor colors
   
-  #### cursor: 26575d
-  #### cursor text: 003440
+    #### cursor: 26575d
+    #### cursor text: 003440
   
   ### ANSI colors
   
