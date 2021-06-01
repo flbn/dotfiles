@@ -36,18 +36,26 @@
   ### ANSI colors
   
   #### black:
-    normal: 816658   #### bright: 7b5e40
+    normal: 816658
+    bright: 7b5e40
   #### red:
-    normal: ea3b00   #### bright: ff6349
+    normal: ea3b00
+    bright: ff6349
   #### green:
-    normal: 6cb7a6   #### bright: bbd3c4
+    normal: 6cb7a6
+    bright: bbd3c4
   #### yellow:
-    normal: e8d48d   #### bright: ffd189
+    normal: e8d48d
+    bright: ffd189
   #### blue:
-    normal: 08689d   #### bright: 79b0d7
+    normal: 08689d
+    bright: 79b0d7
   #### magenta:
-    normal: ea7000   #### bright: ff9c49
+    normal: ea7000
+    bright: ff9c49
   #### cyan:
-    normal: cb577d   #### bright: cb577d
+    normal: cb577d
+    bright: cb577d
   #### white:
-    normal: f2f2d7   #### bright: fefef3
+    normal: f2f2d7
+    bright: fefef3
