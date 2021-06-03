@@ -20,42 +20,42 @@
 
   ### basic colors
   
-    foreground: ececec
-    background: 0a0a0a
-    bold: feffff
-    links: e37a8f
-    selection: 793845
+    foreground: d8d8d8
+    background: 181818
+    bold: d8d8d8
+    links: 005bbb
+    selection: d8d8d8
     selected text: feffff
     badge: ff2600
   
   ### cursor colors
   
-    cursor: 26575d
-    cursor text: 003440
+    cursor: d8d8d8
+    cursor text: 181818
   
   ### ANSI colors
   
   #### black:
-    normal: 816658
-    bright: 7b5e40
+    normal: 181818
+    bright: 585858
   #### red:
-    normal: ea3b00
-    bright: ff6349
+    normal: ab4642
+    bright: dc9656
   #### green:
-    normal: 6cb7a6
-    bright: bbd3c4
+    normal: a1b56c
+    bright: 282828
   #### yellow:
-    normal: e8d48d
-    bright: ffd189
+    normal: f7ca88
+    bright: 383838
   #### blue:
-    normal: 08689d
-    bright: 79b0d7
+    normal: 7cafc2
+    bright: b8b8b8
   #### magenta:
-    normal: ea7000
-    bright: ff9c49
+    normal: ba8baf
+    bright: e8e8e8
   #### cyan:
-    normal: cb577d
-    bright: cb577d
+    normal: 86c1b9
+    bright: a16946
   #### white:
-    normal: f2f2d7
-    bright: fefef3
+    normal: d8d8d8
+    bright: f8f8f8
