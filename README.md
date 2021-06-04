@@ -9,6 +9,10 @@ basically:
     
     bat (cat, with syntax highlighting)
     
+    neofetch (command-line system info)
+    
+    nano (GNU nano, version 5.7. brew install -> create alias in .zshrc)
+    
     yabai (tiling window manager)
     
     skhd (hotkey daemon)
