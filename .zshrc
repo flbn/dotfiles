@@ -14,7 +14,7 @@ ZSH_THEME="robbyrussell"
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 PROMPT='%F{cyan}${PWD/#$HOME/~}%f %F{green}${vcs_info_msg_0_}%f %#> '
-RPROMPT='%F{red}%n@%m%f, %t, %(?.%{$fg[green]%}Y%f.%{$fg[red]%}X%f)'
+RPROMPT='%F{#6c6c6c}%n, %t%f'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
