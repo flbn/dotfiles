@@ -9,12 +9,20 @@ export EDITOR="nvim"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="common"
+
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+#zstyle ':vcs_info:git:*' formats 'on branch %b'
+
 
 # Set up the prompt (with git branch name)
-setopt PROMPT_SUBST
-PROMPT='%F{cyan}${PWD/#$HOME/~}%f %F{green}${vcs_info_msg_0_}%f %#> '
-RPROMPT='%F{#6c6c6c}%n, %t%f'
+#setopt PROMPT_SUBST
+#PROMPT='%F{cyan}${PWD/#$HOME/~}%f %F{green}${vcs_info_msg_0_}%f %#>'
+#RPROMPT='%F{#6c6c6c}%n, %t%f'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -32,7 +40,7 @@ RPROMPT='%F{#6c6c6c}%n, %t%f'
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
